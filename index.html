@@ -382,6 +382,15 @@
             border-radius: 12px;
             overflow: hidden;
         }
+        .expertise-grid2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
 
         .expertise-card {
             background: var(--surface);
@@ -1008,29 +1017,22 @@
     <!-- TICKER -->
     <div class="ticker-bar">
         <div class="ticker-track">
-            <span class="ticker-item">IEEE <span>Senior Member</span></span>
-            <span class="ticker-item">CISSP <span>Certified 2025</span></span>
-            <span class="ticker-item">OSCP <span>OS-101-42137</span></span>
-            <span class="ticker-item">Google <span>AI Security Hackathon Winner</span></span>
-            <span class="ticker-item">BlackArch Linux <span>Adopted Tools</span></span>
+            <span class="ticker-item">CISSP <span>Certified</span></span>
+            <span class="ticker-item">OSCP <span>Certified</span></span>
             <span class="ticker-item">OWASP AIVSS <span>Technical Contributor</span></span>
             <span class="ticker-item">AIUC-1 <span>Consortium Member</span></span>
             <span class="ticker-item">IEEE SVCC <span>Program Committee</span></span>
             <span class="ticker-item">BSides Chicago <span>CFP Reviewer</span></span>
-            <span class="ticker-item">Matter IoT Protocol <span>Security Reference Implementation</span></span>
-            <span class="ticker-item">CRTP <span>Certified 2020</span></span>
+            <span class="ticker-item">CRTP <span>Certified</span></span>
             <!-- duplicate for seamless loop -->
-            <span class="ticker-item">IEEE <span>Senior Member</span></span>
-            <span class="ticker-item">CISSP <span>Certified 2025</span></span>
-            <span class="ticker-item">OSCP <span>OS-101-42137</span></span>
+            <span class="ticker-item">CISSP <span>Certified</span></span>
+            <span class="ticker-item">OSCP <span>Certified</span></span>
             <span class="ticker-item">Google <span>AI Security Hackathon Winner</span></span>
-            <span class="ticker-item">BlackArch Linux <span>Adopted Tools</span></span>
             <span class="ticker-item">OWASP AIVSS <span>Technical Contributor</span></span>
             <span class="ticker-item">AIUC-1 <span>Consortium Member</span></span>
             <span class="ticker-item">IEEE SVCC <span>Program Committee</span></span>
             <span class="ticker-item">BSides Chicago <span>CFP Reviewer</span></span>
-            <span class="ticker-item">Matter IoT Protocol <span>Security Reference Implementation</span></span>
-            <span class="ticker-item">CRTP <span>Certified 2020</span></span>
+            <span class="ticker-item">CRTP <span>Certified</span></span>
         </div>
     </div>
 
@@ -1073,6 +1075,9 @@
                     <span class="tag">HIDS</span>
                 </div>
             </div>
+            </div>
+
+            <div class="expertise-grid2">
             <div class="expertise-card">
                 <span class="expertise-icon">🏠</span>
                 <h3>IoT & Smart Device Security</h3>
